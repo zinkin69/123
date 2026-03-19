@@ -11,6 +11,7 @@ import { Features } from "./components/Features";
 import { Tomorrowland } from "./components/Tomorrowland";
 import { Onboarding } from "./components/Onboarding";
 import { AffiliateBenefits } from "./components/AffiliateBenefits";
+import { FAQ } from "./components/FAQ";
 import { Footer } from "./components/Footer";
 
 export default function App() {
@@ -26,6 +27,7 @@ export default function App() {
         <Tomorrowland />
         <Onboarding />
         <AffiliateBenefits />
+        <FAQ />
       </main>
 
       <Footer />

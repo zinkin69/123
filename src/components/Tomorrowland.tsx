@@ -32,11 +32,16 @@ export function Tomorrowland() {
               A Bybit é a parceira oficial de pagamentos do Tomorrowland Brasil. Garanta acesso antecipado ao pré-registro (início em 30 de abril de 2026) e ganhe até <strong className="text-white">20% de cashback</strong> nos ingressos.
             </p>
             
-            <button className="group relative inline-flex items-center justify-center gap-3 bg-white text-bg-dark font-bold text-lg py-4 px-8 rounded-full overflow-hidden transition-all hover:scale-105 shadow-[0_0_40px_rgba(255,255,255,0.2)]">
+            <a 
+              href="https://partner.bybit.com/b/aff7156321" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="group relative inline-flex items-center justify-center gap-3 bg-white text-bg-dark font-bold text-lg py-4 px-8 rounded-full overflow-hidden transition-all hover:scale-105 shadow-[0_0_40px_rgba(255,255,255,0.2)]"
+            >
               <Ticket className="w-5 h-5 relative z-10" />
               <span className="relative z-10">Garantir Vantagem VIP</span>
               <div className="absolute inset-0 bg-electric-blue/10 translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-out" />
-            </button>
+            </a>
           </div>
           
           {/* Visual Element */}

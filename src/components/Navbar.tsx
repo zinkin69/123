@@ -17,9 +17,14 @@ export function Navbar() {
           <span className="text-xl font-bold tracking-tight">Bybit Partners</span>
         </div>
         
-        <button className="bg-bybit-yellow hover:bg-bybit-yellow/90 text-bg-dark font-semibold py-2.5 px-6 rounded-full transition-all duration-300 shadow-[0_0_15px_rgba(247,166,0,0.3)] hover:shadow-[0_0_25px_rgba(247,166,0,0.5)] transform hover:-translate-y-0.5">
+        <a 
+          href="https://partner.bybit.com/b/aff7156321" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="bg-bybit-yellow hover:bg-bybit-yellow/90 text-bg-dark font-semibold py-2.5 px-6 rounded-full transition-all duration-300 shadow-[0_0_15px_rgba(247,166,0,0.3)] hover:shadow-[0_0_25px_rgba(247,166,0,0.5)] transform hover:-translate-y-0.5"
+        >
           Ser um Parceiro
-        </button>
+        </a>
       </div>
     </motion.header>
   );

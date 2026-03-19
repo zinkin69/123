@@ -27,11 +27,16 @@ export function Hero() {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 mt-4">
-            <button className="group relative flex items-center justify-center gap-2 bg-bybit-yellow text-bg-dark font-bold text-lg py-4 px-8 rounded-full overflow-hidden transition-all hover:scale-105 shadow-[0_0_30px_rgba(247,166,0,0.4)]">
+            <a 
+              href="https://partner.bybit.com/b/aff7156321" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="group relative flex items-center justify-center gap-2 bg-bybit-yellow text-bg-dark font-bold text-lg py-4 px-8 rounded-full overflow-hidden transition-all hover:scale-105 shadow-[0_0_30px_rgba(247,166,0,0.4)]"
+            >
               <span className="relative z-10">Pegar meu Bônus de R$150</span>
               <ArrowRight className="w-5 h-5 relative z-10 group-hover:translate-x-1 transition-transform" />
               <div className="absolute inset-0 bg-white/20 translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-out" />
-            </button>
+            </a>
           </div>
         </motion.div>
 
