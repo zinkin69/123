@@ -36,6 +36,7 @@ export function Tomorrowland() {
               href="https://partner.bybit.com/b/aff7156321" 
               target="_blank" 
               rel="noopener noreferrer"
+              onClick={() => (window as any).fbq?.('track', 'Lead')}
               className="group relative inline-flex items-center justify-center gap-3 bg-white text-bg-dark font-bold text-lg py-4 px-8 rounded-full overflow-hidden transition-all hover:scale-105 shadow-[0_0_40px_rgba(255,255,255,0.2)]"
             >
               <Ticket className="w-5 h-5 relative z-10" />

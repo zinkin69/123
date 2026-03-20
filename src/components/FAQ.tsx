@@ -75,6 +75,7 @@ export function FAQ() {
             href="https://partner.bybit.com/b/aff7156321" 
             target="_blank" 
             rel="noopener noreferrer"
+            onClick={() => (window as any).fbq?.('track', 'Lead')}
             className="inline-flex items-center justify-center gap-2 bg-bybit-yellow text-bg-dark font-bold text-lg py-4 px-10 rounded-full transition-all hover:scale-105 shadow-[0_0_30px_rgba(247,166,0,0.4)]"
           >
             Solicitar Meu Cartão Agora

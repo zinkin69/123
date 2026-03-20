@@ -31,6 +31,7 @@ export function Hero() {
               href="https://partner.bybit.com/b/aff7156321" 
               target="_blank" 
               rel="noopener noreferrer"
+              onClick={() => (window as any).fbq?.('track', 'Lead')}
               className="group relative flex items-center justify-center gap-2 bg-bybit-yellow text-bg-dark font-bold text-lg py-4 px-8 rounded-full overflow-hidden transition-all hover:scale-105 shadow-[0_0_30px_rgba(247,166,0,0.4)]"
             >
               <span className="relative z-10">Pegar meu Bônus de R$150</span>
